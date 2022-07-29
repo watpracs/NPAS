@@ -126,13 +126,7 @@
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
-    <Content Include="Images\CR_09  Feed with styleFB.jpg" />
-    <Content Include="Images\DSC_2406.jpg" />
-    <Content Include="Images\DSC_3229-2PS.jpg" />
-    <Content Include="Images\DSC_3707.jpg" />
-    <Content Include="Images\DSC_4430-2.tif" />
-    <Content Include="Images\DSC_7717-2.tif" />
-    <Content Include="Images\T1.jpg" />
+    <Content Include="Login.aspx" />
     <Content Include="Judging.aspx" />
     <Content Include="Home.aspx" />
     <Content Include="Scripts\bootstrap.js" />
@@ -196,6 +190,14 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="DataAccess.cs" />
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Judging.aspx.cs">
       <DependentUpon>Judging.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -235,6 +237,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Images\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
